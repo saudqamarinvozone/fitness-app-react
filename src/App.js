@@ -2,8 +2,8 @@ import { Switch, Route } from "react-router-dom";
 
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
-import ForgetPassword from './components/auth/ForgetPassword';
-import ResetPassword from './components/auth/ResetPassword';
+import ForgetPassword from './components/auth/forgetPassword';
+import ResetPassword from './components/auth/resetPassword';
 
 function App() {
   return (
