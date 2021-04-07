@@ -11,9 +11,7 @@ const DashboardMain = () => {
         
             <Header />
         
-            <Route path="/dashboard">
-                <Dashboard />
-            </Route>
+            <Route path="/dashboard" component={Dashboard} />
             
         </div>
     );
