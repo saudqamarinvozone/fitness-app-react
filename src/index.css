@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+    
+    .bg-coral-green {
+        background-color: #36cdab;
+    }
+    .border-coral-green: {
+        border-color: #36cdab
+    }
+    .text-custom-color: {
+        color: green;
+        opacity: 1;
+    }
+}
